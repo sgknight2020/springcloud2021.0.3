@@ -21,9 +21,11 @@
         <module>provider-stream-8011</module>
         <module>consumer-stream-8012</module>
         <module>consumer-stream-8013</module>
+        <module>nacos-payment-9001</module>
     </modules>
     <properties>
         <spring.cloud-version>2021.0.3</spring.cloud-version>
+        <spring.cloud.alibaba-version>2021.0.1.0</spring.cloud.alibaba-version>
         <spring.boot-version>2.6.8</spring.boot-version>
         <mybatis-spring-boot-version>2.2.2</mybatis-spring-boot-version>
     </properties>
@@ -58,6 +60,13 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>1.1.10</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring.cloud.alibaba-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
