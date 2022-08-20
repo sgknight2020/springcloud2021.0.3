@@ -23,6 +23,7 @@
         <module>consumer-stream-8013</module>
         <module>nacos-payment-9001</module>
         <module>nacos-payment-9002</module>
+        <module>nacos-consumer-order-9010</module>
     </modules>
     <properties>
         <spring.cloud-version>2021.0.3</spring.cloud-version>
